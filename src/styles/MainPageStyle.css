@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com');
+@import url('https://fonts.gstatic.com');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+html{
+    background-color: rgba(0, 0, 0,1);
+
+}
+
+body {
+    
+    margin: 0;
+    padding: 0;
+
+}
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.main-header {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    padding-bottom: 10px;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+    font-size: 8em;
+    font-family: "Satisfy", cursive; 
+    font-weight: normal;
+    color: white;
+}
+.logo{
+    padding-top: 25px;
+    height: 1em;
+    margin-right:5px;
+}
+
+#card-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #000000;
+    background-color: rgba(203, 195, 230,1);
+
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+}
+
+.card-content {
+    padding: 20px;
+    font-family: "Verdana";
+    color: #434343;
+}
+
+.card-content h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: "Satisfy", cursive;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-text-size-adjust: auto;
+    -moz-text-size-adjust: auto;
+    -ms-text-size-adjust: auto;
+    text-size-adjust: auto;
+}
+
+a {
+    text-decoration: none;
+}
